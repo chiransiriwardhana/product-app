@@ -20,3 +20,7 @@
 
 # Drag and Drop
 <img width="390" alt="Screenshot 2024-04-30 at 8 55 35 AM" src="https://github.com/chiransiriwardhana/product-app/assets/47823522/0d6a8cb9-6fe6-4c32-917c-f8e970cac8d9">
+
+## link for demonstrating video 
+
+https://drive.google.com/file/d/1FpL0F5d8nJzpgcBeCzFNm2h8-VrJmLxv/view?usp=sharing
