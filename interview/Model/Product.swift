@@ -15,18 +15,17 @@ class Product: Identifiable {
     var id: String
     var productName: String
     var productCode: String
-    var quantity: String
     var isPrinted: Bool
-    var orderIndex: Int
+    var quantity: String
+    var orderIndex: Int  // used reordering the list
 
-    init(productName: String, productCode: String, quantity: String, orderIndex: Int ) {
+    init(productName: String, productCode: String, quantity: String , orderIndex: Int) {
         self.id = UUID().uuidString
         self.productName = productName
         self.productCode = productCode
-        self.quantity = quantity
         self.isPrinted = false
+        self.quantity = quantity
         self.orderIndex = orderIndex
-
     }
 }
 

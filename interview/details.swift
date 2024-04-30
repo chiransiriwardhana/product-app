@@ -22,6 +22,7 @@ struct details: View {
                         .frame(width: 120)
                         .multilineTextAlignment(.trailing)
                         .padding(.trailing, 30)
+                        .multilineTextAlignment(.center)
                 }
 
                 HStack {
@@ -31,15 +32,18 @@ struct details: View {
                         .frame(width: 120)
                         .multilineTextAlignment(.trailing)
                         .padding(.trailing, 30)
+                        .multilineTextAlignment(.center)
 
                 }
                 HStack {
                     Text("Quantity")
                     Spacer()
                     TextField("Quantity", text: $product.quantity, prompt: Text("Required"))
+                        .keyboardType(.numberPad)
                         .frame(width: 120)
                         .multilineTextAlignment(.trailing)
                         .padding(.trailing, 30)
+                        .multilineTextAlignment(.center)
                 }
 
             } else {

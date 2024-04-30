@@ -15,6 +15,7 @@
 		A241F56D2BDE319F0017BC6F /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A241F56C2BDE319F0017BC6F /* ProductList.swift */; };
 		A241F5712BDE466F0017BC6F /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A241F5702BDE466F0017BC6F /* EditView.swift */; };
 		A241F5732BDE846B0017BC6F /* details.swift in Sources */ = {isa = PBXBuildFile; fileRef = A241F5722BDE846B0017BC6F /* details.swift */; };
+		A241F5752BE07EDA0017BC6F /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A241F5742BE07EDA0017BC6F /* ProductRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A241F56C2BDE319F0017BC6F /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		A241F5702BDE466F0017BC6F /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		A241F5722BDE846B0017BC6F /* details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = details.swift; sourceTree = "<group>"; };
+		A241F5742BE07EDA0017BC6F /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +65,11 @@
 				A241F55B2BDE2F510017BC6F /* interviewApp.swift */,
 				A241F55D2BDE2F510017BC6F /* ContentView.swift */,
 				A241F56C2BDE319F0017BC6F /* ProductList.swift */,
-				A241F55F2BDE2F520017BC6F /* Assets.xcassets */,
-				A241F5612BDE2F520017BC6F /* Preview Content */,
 				A241F5702BDE466F0017BC6F /* EditView.swift */,
 				A241F5722BDE846B0017BC6F /* details.swift */,
+				A241F5742BE07EDA0017BC6F /* ProductRow.swift */,
+				A241F55F2BDE2F520017BC6F /* Assets.xcassets */,
+				A241F5612BDE2F520017BC6F /* Preview Content */,
 			);
 			path = interview;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				A241F56D2BDE319F0017BC6F /* ProductList.swift in Sources */,
 				A241F5712BDE466F0017BC6F /* EditView.swift in Sources */,
 				A241F55C2BDE2F510017BC6F /* interviewApp.swift in Sources */,
+				A241F5752BE07EDA0017BC6F /* ProductRow.swift in Sources */,
 				A241F5732BDE846B0017BC6F /* details.swift in Sources */,
 				A241F56B2BDE30D00017BC6F /* Product.swift in Sources */,
 			);

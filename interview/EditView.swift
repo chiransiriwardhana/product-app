@@ -42,16 +42,8 @@ struct EditView: View {
             Divider()
                 .padding(.horizontal, 20)
 
-//            TextField("Enter your ordertIndex", text: $orderIndex)
-//                .keyboardType(.numberPad)
-//                .padding(.top, 20)
-//                .padding(.horizontal, 20)
-//
-//            Divider()
-//                .padding(.horizontal, 20)
-
             Button(action: {
-                add(productName: productName, productCode: productCode, quantity: quantity, orderIndex: Int(orderIndex) ?? 0)
+                add(productName: productName, productCode: productCode, quantity: quantity, orderIndex: numberOfObjectInContext() + 1)
                 self.presentationMode.wrappedValue.dismiss()
 
             }){
@@ -72,8 +64,11 @@ struct EditView: View {
         context.insert(Product(productName: productName, productCode: productCode, quantity: quantity, orderIndex: orderIndex))
     }
 
-    func DeleteButton(productName: String, productCode: String, quantity: String, isPrinted: String, orderIndex: Int) {
-        context.delete(Product(productName: productName, productCode: productCode, quantity: quantity, orderIndex: orderIndex))
+    func numberOfObjectInContext() -> Int {
+        let descriptor = FetchDescriptor<Product>()
+        let objects = (try? context.fetch(descriptor)) ?? []
+        let count = objects.count
+        return count
     }
 }
 

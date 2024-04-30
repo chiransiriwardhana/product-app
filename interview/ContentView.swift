@@ -12,22 +12,6 @@ struct ContentView: View {
     var body: some View {
         ProductList()
     }
-
-    func fetch() -> [Product]{
-        let fetchDescriptor = FetchDescriptor<Product>()
-        var items: [Product] = []
-
-        do {
-
-            let products = try context.fetch(fetchDescriptor)
-
-            for product in products {
-                items.append(product)
-            }
-
-        } catch {}
-        return items
-    }
 }
 
 #Preview {
